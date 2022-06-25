@@ -197,23 +197,23 @@ public class Heap<T extends Comparable<T>>{
 
         System.out.println("Testing d-ary heap dataStructure");
 
-		int[] initialArray = {1,2,3,4,5,6,7,8,9};
+	int[] initialArray = {1,2,3,4,5,6,7,8,9};
 
-		Heap heap = new Heap(4);
+	Heap heap = new Heap(4);
 
-		for(int i = 0; i < initialArray.length; i++){
+	for(int i = 0; i < initialArray.length; i++){
 
-			heap.push(initialArray[i]);
+		heap.push(initialArray[i]);
 
-		}
+	}
 
-		System.out.println(heap.heapArray);
+	System.out.println(heap.heapArray);
 
-		heap.popMax();
+	heap.popMax();
 
-		System.out.println("");
+	System.out.println("");
 
-		System.out.println(heap.heapArray);
+	System.out.println(heap.heapArray);
 		
 
 
